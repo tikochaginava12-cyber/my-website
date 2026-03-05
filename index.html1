@@ -1,33 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Tiko Website</title>
-</head>
-
-<body>
-
-<h1>გამარჯობა!</h1>
-<p>CHAGINA DESIGN.</p>
-
-</body>
-</html>
 <!doctype html>
 <html lang="ka">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tiko — პირადი გვერდი</title>
+  <title>ჩემი ბიზნესი — მთავარი</title>
+  <meta name="description" content="ბიზნესის მოკლე აღწერა 1-2 წინადადებით." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#top">Tiko</a>
+      <a class="brand" href="#top">YourBusiness</a>
 
-      <nav class="nav" aria-label="მთავარი ნავიგაცია">
-        <a href="#about">ჩვენს შესახებ</a>
-        <a href="#skills">პარტნიორები</a>
-        <a href="#projects">პროექტები</a>
+      <nav class="nav" aria-label="ნავიგაცია">
+        <a href="#services">სერვისები</a>
+        <a href="#why">რატომ ჩვენ</a>
+        <a href="#work">ნამუშევრები</a>
+        <a href="#reviews">შეფასებები</a>
         <a class="btn small" href="#contact">კონტაქტი</a>
       </nav>
     </div>
@@ -37,104 +26,179 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-text">
-          <p class="badge">პირადი პორტფოლიო / ბიო</p>
-          <h1>გამარჯობა, ჩვენ ვართ ჩაგინა დიზაინის გუნდი <span class="accent">Tiko</span></h1>
+          <p class="badge">მუშაობა სწრაფად • ხარისხით • პასუხისმგებლობით</p>
+          <h1>
+            <span class="accent">დამაჯერებელი სერვისი</span> თქვენი ბიზნესისთვის
+          </h1>
           <p class="lead">
-            აქ შეგიძლია დაწერო 1–2 წინადადება: საკმაოდ დიდი გამოცდილება გვაქვს დიზაინის სფეროშ
+            აქ ჩაწერე რა აკეთებს შენი ბიზნესი 1–2 წინადადებით.
+            მაგალითად: “ვთავაზობთ X სერვისს/პროდუქტს თბილისში და ონლაინ, სწრაფი რეაგირებით და გარანტიით.”
           </p>
 
           <div class="hero-actions">
-            <a class="btn" href="#projects">ნახე პროექტები</a>
-            <a class="btn ghost" href="#contact">დამიკავშირდი</a>
+            <a class="btn" href="#contact">ფასის მიღება / შეკვეთა</a>
+            <a class="btn ghost" href="#services">ნახე სერვისები</a>
           </div>
 
           <div class="mini">
-            <span>📍 Berlin / Georgia</span>
-            <span>✉️ example@mail.com</span>
+            <span>📍 ლოკაცია: თბილისი / საქართველო</span>
+            <span>⏱️ პასუხი: 24 საათში</span>
           </div>
         </div>
 
         <div class="hero-card">
-          <img class="avatar" src="images/profile.jpg" alt="Tiko profile photo" />
+          <img class="hero-img" src="images/hero.jpg" alt="ბიზნესის ფოტო" />
           <div class="card-text">
-            <h3>მოკლე სათაური</h3>
-            <p>მაგალითად: Digital Marketing student • Content & Strategy • Language lover</p>
+            <h3>ჩვენი უპირატესობა</h3>
+            <p>მაგ: უფასო კონსულტაცია • სწრაფი მიწოდება/სერვისი • გარანტია</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section">
+    <section id="services" class="section">
       <div class="container">
-        <h2>ჩემ შესახებ</h2>
-        <p>
-          აქ დაწერე მოკლე ბიო. მაგალითად: რა გამოცდილება გაქვს, რას სწავლობ, რა თემებზე მუშაობ.
-          4–6 წინადადება საკმარისია.
-        </p>
+        <h2>სერვისები</h2>
+        <p class="muted">აირჩიე 3–6 ძირითადი მომსახურება/პროდუქტის კატეგორია.</p>
 
         <div class="cards">
-          <div class="card">
-            <h3>ფოკუსი</h3>
-            <p>მაგ: Digital Marketing, content strategy, research, branding.</p>
+          <article class="card">
+            <h3>სერვისი 1</h3>
+            <p>მოკლე აღწერა: რას აკეთებ, ვისთვისაა, რა შედეგს იღებს კლიენტი.</p>
+          </article>
+          <article class="card">
+            <h3>სერვისი 2</h3>
+            <p>მოკლე აღწერა 1–2 წინადადებით.</p>
+          </article>
+          <article class="card">
+            <h3>სერვისი 3</h3>
+            <p>მოკლე აღწერა 1–2 წინადადებით.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section alt">
+      <div class="container">
+        <h2>რატომ ჩვენ</h2>
+
+        <div class="split">
+          <div class="panel">
+            <h3>რას იღებს კლიენტი</h3>
+            <ul class="list">
+              <li>✅ გამჭვირვალე ფასი და შეთანხმება</li>
+              <li>✅ ხარისხის კონტროლი და გარანტია</li>
+              <li>✅ დროული შესრულება</li>
+              <li>✅ მუდმივი მხარდაჭერა</li>
+            </ul>
           </div>
-          <div class="card">
-            <h3>ღირებულება</h3>
-            <p>მაგ: პრაქტიკული მიდგომა, სწორი სტრუქტურა, მარტივი კომუნიკაცია.</p>
-          </div>
-          <div class="card">
-            <h3>მიზანი</h3>
-            <p>მაგ: უკეთესი პორტფოლიო, კარიერული ნაბიჯი, პროექტები.</p>
+
+          <div class="panel">
+            <h3>მოკლე ციფრები</h3>
+            <div class="stats">
+              <div class="stat">
+                <div class="stat-num">50+</div>
+                <div class="stat-label">კლიენტი</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">4.9/5</div>
+                <div class="stat-label">რეიტინგი</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">24h</div>
+                <div class="stat-label">რეაგირება</div>
+              </div>
+            </div>
+            <p class="muted small">ციფრები შეგიძლია რეალურზე შეცვალო (ან დროებით დატოვო).</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="skills" class="section alt">
+    <section id="work" class="section">
       <div class="container">
-        <h2>უნარები</h2>
-        <div class="tags">
-          <span class="tag">Content Marketing</span>
-          <span class="tag">Social Media</span>
-          <span class="tag">SEO Basics</span>
-          <span class="tag">Google Ads (Basics)</span>
-          <span class="tag">Research</span>
-          <span class="tag">Presentation</span>
-        </div>
-      </div>
-    </section>
+        <h2>ნამუშევრები / ქეისები</h2>
+        <p class="muted">აქ დაამატე 3 მაგალითი: რას გააკეთე და რა შედეგი დადო.</p>
 
-    <section id="projects" class="section">
-      <div class="container">
-        <h2>პროექტები</h2>
         <div class="cards">
           <article class="card">
-            <h3>Project 1</h3>
-            <p>1–2 წინადადებით აღწერე: რა გააკეთე და რა იყო შედეგი.</p>
-            <a class="link" href="#" target="_blank" rel="noreferrer">ლინკი →</a>
+            <h3>ქეისი 1</h3>
+            <p>პრობლემა → გადაწყვეტა → შედეგი (მოკლედ).</p>
+            <a class="link" href="#" target="_blank" rel="noreferrer">ნახე მეტი →</a>
           </article>
           <article class="card">
-            <h3>Project 2</h3>
-            <p>მაგ: კონტენტის გეგმა, კამპანიის იდეები, ან კვლევა.</p>
-            <a class="link" href="#" target="_blank" rel="noreferrer">ლინკი →</a>
+            <h3>ქეისი 2</h3>
+            <p>მაგ: პროექტის აღწერა და 1 ციფრი შედეგიდან.</p>
+            <a class="link" href="#" target="_blank" rel="noreferrer">ნახე მეტი →</a>
           </article>
           <article class="card">
-            <h3>Project 3</h3>
-            <p>მოკლე აღწერა. შეგიძლია დაამატო PDF/Notion/Drive ლინკიც.</p>
-            <a class="link" href="#" target="_blank" rel="noreferrer">ლინკი →</a>
+            <h3>ქეისი 3</h3>
+            <p>მოკლე აღწერა.</p>
+            <a class="link" href="#" target="_blank" rel="noreferrer">ნახე მეტი →</a>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section alt">
+    <section id="reviews" class="section alt">
+      <div class="container">
+        <h2>კლიენტების შეფასებები</h2>
+        <div class="cards">
+          <figure class="card">
+            <blockquote class="quote">“ძალიან სწრაფად და ხარისხიანად გააკეთეს. კომუნიკაციაც იდეალური იყო.”</blockquote>
+            <figcaption class="muted">— კლიენტი 1</figcaption>
+          </figure>
+          <figure class="card">
+            <blockquote class="quote">“ფასი/ხარისხი საუკეთესო. აუცილებლად კიდევ მივმართავთ.”</blockquote>
+            <figcaption class="muted">— კლიენტი 2</figcaption>
+          </figure>
+          <figure class="card">
+            <blockquote class="quote">“დროზე ჩაბარეს და ყველაფერი შეთანხმების მიხედვით შესრულდა.”</blockquote>
+            <figcaption class="muted">— კლიენტი 3</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
       <div class="container">
         <h2>კონტაქტი</h2>
-        <p>მომწერე: <a class="link" href="mailto:example@mail.com">example@mail.com</a></p>
+        <div class="contact-grid">
+          <div class="panel">
+            <h3>დაგვიკავშირდი</h3>
+            <p class="muted">მოკლე ტექსტი: “მოგვწერე და 24 საათში გიპასუხებთ.”</p>
+            <div class="contact-items">
+              <p>📞 ტელ: <a class="link" href="tel:+995000000000">+995 000 000 000</a></p>
+              <p>✉️ ელფოსტა: <a class="link" href="mailto:example@mail.com">example@mail.com</a></p>
+              <p>📍 მისამართი: თბილისი</p>
+            </div>
 
-        <div class="social">
-          <a class="btn ghost small" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a class="btn ghost small" href="#" target="_blank" rel="noreferrer">Instagram</a>
-          <a class="btn ghost small" href="#" target="_blank" rel="noreferrer">Facebook</a>
+            <div class="social">
+              <a class="btn ghost small" href="#" target="_blank" rel="noreferrer">Facebook</a>
+              <a class="btn ghost small" href="#" target="_blank" rel="noreferrer">Instagram</a>
+              <a class="btn ghost small" href="#" target="_blank" rel="noreferrer">WhatsApp</a>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>სწრაფი მოთხოვნა</h3>
+            <form class="form" action="https://formspree.io/f/yourid" method="POST">
+              <label>
+                სახელი
+                <input name="name" required placeholder="თქვენი სახელი" />
+              </label>
+              <label>
+                ტელ / ელფოსტა
+                <input name="contact" required placeholder="+995… ან email" />
+              </label>
+              <label>
+                შეტყობინება
+                <textarea name="message" rows="4" placeholder="რას ეძებთ?"></textarea>
+              </label>
+              <button class="btn" type="submit">გაგზავნა</button>
+              <p class="muted small">* ფორმის გასამუშავებლად Formspree-ში უფასო ლინკი უნდა ჩასვა (გეტყვი როგორ).</p>
+            </form>
+          </div>
         </div>
       </div>
     </section>
@@ -142,7 +206,7 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <small>© <span id="y"></span> Tiko. All rights reserved.</small>
+      <small>© <span id="y"></span> YourBusiness. All rights reserved.</small>
       <a class="link" href="#top">ზემოთ ↑</a>
     </div>
   </footer>
